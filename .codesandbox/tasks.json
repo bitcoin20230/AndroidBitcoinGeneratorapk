@@ -1,0 +1,223 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "react-app:build": {
+      "name": "react-app:build",
+      "command": "yarn react-app:build",
+      "runAtStart": false
+    },
+    "react-app:eject": {
+      "name": "react-app:eject",
+      "command": "yarn react-app:eject",
+      "runAtStart": false
+    },
+    "react-app:start": {
+      "name": "react-app:start",
+      "command": "yarn react-app:start",
+      "runAtStart": false
+    },
+    "react-app:test": {
+      "name": "react-app:test",
+      "command": "yarn react-app:test",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "chain": {
+      "name": "chain",
+      "command": "yarn chain",
+      "runAtStart": false
+    },
+    "fork": {
+      "name": "fork",
+      "command": "yarn fork",
+      "runAtStart": false
+    },
+    "node": {
+      "name": "node",
+      "command": "yarn node",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "compile": {
+      "name": "compile",
+      "command": "yarn compile",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
+    "verify": {
+      "name": "verify",
+      "command": "yarn verify",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "accounts": {
+      "name": "accounts",
+      "command": "yarn accounts",
+      "runAtStart": false
+    },
+    "balance": {
+      "name": "balance",
+      "command": "yarn balance",
+      "runAtStart": false
+    },
+    "send": {
+      "name": "send",
+      "command": "yarn send",
+      "runAtStart": false
+    },
+    "ipfs": {
+      "name": "ipfs",
+      "command": "yarn ipfs",
+      "runAtStart": false
+    },
+    "surge": {
+      "name": "surge",
+      "command": "yarn surge",
+      "runAtStart": false
+    },
+    "s3": {
+      "name": "s3",
+      "command": "yarn s3",
+      "runAtStart": false
+    },
+    "ship": {
+      "name": "ship",
+      "command": "yarn ship",
+      "runAtStart": false
+    },
+    "generate": {
+      "name": "generate",
+      "command": "yarn generate",
+      "runAtStart": false
+    },
+    "account": {
+      "name": "account",
+      "command": "yarn account",
+      "runAtStart": false
+    },
+    "mineContractAddress": {
+      "name": "mineContractAddress",
+      "command": "yarn mineContractAddress",
+      "runAtStart": false
+    },
+    "wallet": {
+      "name": "wallet",
+      "command": "yarn wallet",
+      "runAtStart": false
+    },
+    "fundedwallet": {
+      "name": "fundedwallet",
+      "command": "yarn fundedwallet",
+      "runAtStart": false
+    },
+    "flatten": {
+      "name": "flatten",
+      "command": "yarn flatten",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "run-graph-node": {
+      "name": "run-graph-node",
+      "command": "yarn run-graph-node",
+      "runAtStart": false
+    },
+    "remove-graph-node": {
+      "name": "remove-graph-node",
+      "command": "yarn remove-graph-node",
+      "runAtStart": false
+    },
+    "clean-graph-node": {
+      "name": "clean-graph-node",
+      "command": "yarn clean-graph-node",
+      "runAtStart": false
+    },
+    "graph-codegen": {
+      "name": "graph-codegen",
+      "command": "yarn graph-codegen",
+      "runAtStart": false
+    },
+    "graph-build": {
+      "name": "graph-build",
+      "command": "yarn graph-build",
+      "runAtStart": false
+    },
+    "graph-create-local": {
+      "name": "graph-create-local",
+      "command": "yarn graph-create-local",
+      "runAtStart": false
+    },
+    "graph-remove-local": {
+      "name": "graph-remove-local",
+      "command": "yarn graph-remove-local",
+      "runAtStart": false
+    },
+    "graph-deploy-local": {
+      "name": "graph-deploy-local",
+      "command": "yarn graph-deploy-local",
+      "runAtStart": false
+    },
+    "graph-ship-local": {
+      "name": "graph-ship-local",
+      "command": "yarn graph-ship-local",
+      "runAtStart": false
+    },
+    "deploy-and-graph": {
+      "name": "deploy-and-graph",
+      "command": "yarn deploy-and-graph",
+      "runAtStart": false
+    },
+    "theme": {
+      "name": "theme",
+      "command": "yarn theme",
+      "runAtStart": false
+    },
+    "watch-theme": {
+      "name": "watch-theme",
+      "command": "yarn watch-theme",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    }
+  }
+}
